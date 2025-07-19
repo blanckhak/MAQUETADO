@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendar Tutoría</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>UNTELS</h1>
+        <nav>
+            <ul>
+                <li><a href="tutorias.html">Tutorías</a></li>
+                <li><a href="historias.html">Historias de Tutorías</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Agendar Tutoría</h2>
+        <form action="tutorias.html" method="POST">
+            <label for="curso">Curso:</label>
+            <select id="curso" name="curso">
+                <option value="matematica">Matemática</option>
+                <option value="quimica">Química</option>
+                <option value="fisica">Física</option>
+            </select>
+
+            <label for="profesor">Profesor:</label>
+            <select id="profesor" name="profesor">
+                <option value="profesor_a">Profesor A</option>
+                <option value="profesor_b">Profesor B</option>
+                <option value="profesor_c">Profesor C</option>
+            </select>
+
+            <label for="dia">Día:</label>
+            <select id="dia" name="dia">
+                <option value="lunes">Lunes</option>
+                <option value="martes">Martes</option>
+                <option value="miercoles">Miércoles</option>
+                <option value="jueves">Jueves</option>
+                <option value="viernes">Viernes</option>
+            </select>
+
+            <button type="submit">Registrar</button>
+        </form>
+    </main>
+</body>
+</html>
